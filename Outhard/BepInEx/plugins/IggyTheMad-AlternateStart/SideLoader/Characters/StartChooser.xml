@@ -71,10 +71,10 @@
     <UID>com.iggy.destiny</UID>
     <SkillRows>
       <SL_SkillRow>
-        <RowIndex>1</RowIndex>
+        <RowIndex>5</RowIndex>
         <Slots>
           <SL_BaseSkillSlot xsi:type="SL_SkillSlot">
-            <ColumnIndex>3</ColumnIndex>
+            <ColumnIndex>2</ColumnIndex>
             <RequiredSkillSlot>
               <x>0</x>
               <y>0</y>
@@ -86,10 +86,10 @@
         </Slots>
       </SL_SkillRow>
       <SL_SkillRow>
-        <RowIndex>2</RowIndex>
+        <RowIndex>4</RowIndex>
         <Slots>
           <SL_BaseSkillSlot xsi:type="SL_SkillSlot">
-            <ColumnIndex>1</ColumnIndex>
+            <ColumnIndex>0</ColumnIndex>
             <RequiredSkillSlot>
               <x>0</x>
               <y>0</y>
@@ -99,7 +99,7 @@
             <Breakthrough>false</Breakthrough>
           </SL_BaseSkillSlot>
           <SL_BaseSkillSlot xsi:type="SL_SkillSlot">
-            <ColumnIndex>2</ColumnIndex>
+            <ColumnIndex>1</ColumnIndex>
             <RequiredSkillSlot>
               <x>0</x>
               <y>0</y>
@@ -109,7 +109,7 @@
             <Breakthrough>false</Breakthrough>
           </SL_BaseSkillSlot>
           <SL_BaseSkillSlot xsi:type="SL_SkillSlot">
-            <ColumnIndex>3</ColumnIndex>
+            <ColumnIndex>2</ColumnIndex>
             <RequiredSkillSlot>
               <x>0</x>
               <y>0</y>
@@ -119,7 +119,7 @@
             <Breakthrough>false</Breakthrough>
           </SL_BaseSkillSlot>
           <SL_BaseSkillSlot xsi:type="SL_SkillSlot">
-            <ColumnIndex>4</ColumnIndex>
+            <ColumnIndex>3</ColumnIndex>
             <RequiredSkillSlot>
               <x>0</x>
               <y>0</y>
@@ -129,7 +129,7 @@
             <Breakthrough>false</Breakthrough>
           </SL_BaseSkillSlot>
           <SL_BaseSkillSlot xsi:type="SL_SkillSlot">
-            <ColumnIndex>5</ColumnIndex>
+            <ColumnIndex>4</ColumnIndex>
             <RequiredSkillSlot>
               <x>0</x>
               <y>0</y>
