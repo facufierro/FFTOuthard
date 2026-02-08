@@ -2,12 +2,10 @@
 <SL_Skill xmlns:xsd="http://www.w3.org/2001/XMLSchema" xmlns:xsi="http://www.w3.org/2001/XMLSchema-instance">
   <Target_ItemID>8205100</Target_ItemID>
   <New_ItemID>-2203</New_ItemID>
-  <Name>Former Highway man</Name>
-  <Description>You have decided to abandon your life of crime to serve a greater purpose, perhaps one of the great tribes has something for someone with your talents.
-  
-&lt;color=#00f5ff&gt;Physical damage +10% and Attack speed +0.1, can cast Backstab and know Greedy Pockets.&lt;/color&gt;
+  <Name>Berg</Name>
+  <Description>Fate calls you to the forest of Enmerkar. You will wake up in Berg.
 
-&lt;color=#ff5043&gt;Buy prices +20%.&lt;/color&gt;</Description>
+&lt;color=#ff5043&gt;This skill can be forgot and does not grant any benefits.&lt;/color&gt;</Description>
   <LegacyItemID>-1</LegacyItemID>
   <IsPickable>false</IsPickable>
   <IsUsable>false</IsUsable>
@@ -33,7 +31,7 @@
       <Rotation xsi:nil="true" />
       <Scale xsi:nil="true" />
       <Effects>
-		<SL_Effect xsi:type="SL_AddStatusEffect">
+        <SL_Effect xsi:type="SL_AddStatusEffect">
           <Delay>0</Delay>
           <SyncType>Everyone</SyncType>
           <OverrideCategory>None</OverrideCategory>
@@ -43,7 +41,7 @@
           <AdditionalLevel>0</AdditionalLevel>
           <NoDealer>false</NoDealer>
         </SL_Effect>
-		<SL_Effect xsi:type="SL_AddStatusEffect">
+        <SL_Effect xsi:type="SL_AddStatusEffect">
           <Delay>0</Delay>
           <SyncType>Everyone</SyncType>
           <OverrideCategory>None</OverrideCategory>
@@ -53,7 +51,7 @@
           <AdditionalLevel>0</AdditionalLevel>
           <NoDealer>false</NoDealer>
         </SL_Effect>
-		<SL_Effect xsi:type="SL_AddStatusEffect">
+        <SL_Effect xsi:type="SL_AddStatusEffect">
           <Delay>0</Delay>
           <SyncType>Everyone</SyncType>
           <OverrideCategory>None</OverrideCategory>
@@ -63,7 +61,7 @@
           <AdditionalLevel>0</AdditionalLevel>
           <NoDealer>false</NoDealer>
         </SL_Effect>
-		<SL_Effect xsi:type="SL_AddStatusEffect">
+        <SL_Effect xsi:type="SL_AddStatusEffect">
           <Delay>0</Delay>
           <SyncType>Everyone</SyncType>
           <OverrideCategory>None</OverrideCategory>
@@ -73,7 +71,7 @@
           <AdditionalLevel>0</AdditionalLevel>
           <NoDealer>false</NoDealer>
         </SL_Effect>
-		<SL_Effect xsi:type="SL_AddStatusEffect">
+        <SL_Effect xsi:type="SL_AddStatusEffect">
           <Delay>0</Delay>
           <SyncType>Everyone</SyncType>
           <OverrideCategory>None</OverrideCategory>
@@ -83,7 +81,7 @@
           <AdditionalLevel>0</AdditionalLevel>
           <NoDealer>false</NoDealer>
         </SL_Effect>
-		<SL_Effect xsi:type="SL_AddStatusEffect">
+        <SL_Effect xsi:type="SL_AddStatusEffect">
           <Delay>0</Delay>
           <SyncType>Everyone</SyncType>
           <OverrideCategory>None</OverrideCategory>
@@ -138,45 +136,6 @@
           <ComparisonType>GEqual</ComparisonType>
         </SL_EffectCondition>		
       </EffectConditions>
-      <ChildEffects />
-    </SL_EffectTransform>
-	<SL_EffectTransform>
-      <TransformName>Passive</TransformName>
-      <Position xsi:nil="true" />
-      <Rotation xsi:nil="true" />
-      <Scale xsi:nil="true" />
-      <Effects>
-        <SL_Effect xsi:type="SL_AffectStat">
-          <Delay>0</Delay>
-          <SyncType>OwnerSync</SyncType>
-          <OverrideCategory>None</OverrideCategory>
-          <Stat_Tag>PhysicalDamage</Stat_Tag>
-          <AffectQuantity>10</AffectQuantity>
-          <IsModifier>true</IsModifier>
-          <Duration>-1</Duration>
-        </SL_Effect>
-		<SL_Effect xsi:type="SL_AffectStat">
-          <Delay>0</Delay>
-          <SyncType>OwnerSync</SyncType>
-          <OverrideCategory>None</OverrideCategory>
-          <Stat_Tag>AttackSpeed</Stat_Tag>
-          <AffectQuantity>10</AffectQuantity>
-          <IsModifier>true</IsModifier>
-          <Tags />
-          <Duration>-1</Duration>
-        </SL_Effect>
-		<SL_Effect xsi:type="SL_AffectStat">
-          <Delay>0</Delay>
-          <SyncType>OwnerSync</SyncType>
-          <OverrideCategory>None</OverrideCategory>
-          <Stat_Tag>BuyModifier</Stat_Tag>
-          <AffectQuantity>20</AffectQuantity>
-          <IsModifier>true</IsModifier>
-          <Tags />
-          <Duration>-1</Duration>
-        </SL_Effect>
-      </Effects>
-      <EffectConditions />
       <ChildEffects />
     </SL_EffectTransform>
   </EffectTransforms>

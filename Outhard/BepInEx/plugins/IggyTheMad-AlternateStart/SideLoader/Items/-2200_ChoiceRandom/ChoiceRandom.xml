@@ -2,7 +2,7 @@
 <SL_Skill xmlns:xsd="http://www.w3.org/2001/XMLSchema" xmlns:xsi="http://www.w3.org/2001/XMLSchema-instance">
   <Target_ItemID>8205100</Target_ItemID>
   <New_ItemID>-2200</New_ItemID>
-  <Name>Spirit Reverberation</Name>
+  <Name>Random</Name>
   <Description>Fate will take care of your new path. When the bell of creation rings... still numb from the memories you didn't remember having... you wake up.
   
 &lt;color=#ff5043&gt;This skill can be forgot and does not grant any benefits.&lt;/color&gt;</Description>
