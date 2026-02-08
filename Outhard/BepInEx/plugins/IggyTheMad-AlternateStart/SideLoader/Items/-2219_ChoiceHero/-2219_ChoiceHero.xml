@@ -65,7 +65,121 @@
       <EffectConditions />
       <ChildEffects />
     </SL_EffectTransform>
-  </EffectTransforms>
+  
+<SL_EffectTransform>
+      <TransformName>Passive</TransformName>
+      <Position xsi:nil="true" />
+      <Rotation xsi:nil="true" />
+      <Scale xsi:nil="true" />
+      <Effects>
+		<SL_Effect xsi:type="SL_AddStatusEffect">
+          <Delay>0</Delay>
+          <SyncType>Everyone</SyncType>
+          <OverrideCategory>None</OverrideCategory>
+          <StatusEffect>Strength</StatusEffect>
+          <ChanceToContract>100</ChanceToContract>
+          <AffectController>false</AffectController>
+          <AdditionalLevel>0</AdditionalLevel>
+          <NoDealer>false</NoDealer>
+        </SL_Effect>
+		<SL_Effect xsi:type="SL_AddStatusEffect">
+          <Delay>0</Delay>
+          <SyncType>Everyone</SyncType>
+          <OverrideCategory>None</OverrideCategory>
+          <StatusEffect>Dexterity</StatusEffect>
+          <ChanceToContract>100</ChanceToContract>
+          <AffectController>false</AffectController>
+          <AdditionalLevel>0</AdditionalLevel>
+          <NoDealer>false</NoDealer>
+        </SL_Effect>
+		<SL_Effect xsi:type="SL_AddStatusEffect">
+          <Delay>0</Delay>
+          <SyncType>Everyone</SyncType>
+          <OverrideCategory>None</OverrideCategory>
+          <StatusEffect>Constitution</StatusEffect>
+          <ChanceToContract>100</ChanceToContract>
+          <AffectController>false</AffectController>
+          <AdditionalLevel>0</AdditionalLevel>
+          <NoDealer>false</NoDealer>
+        </SL_Effect>
+		<SL_Effect xsi:type="SL_AddStatusEffect">
+          <Delay>0</Delay>
+          <SyncType>Everyone</SyncType>
+          <OverrideCategory>None</OverrideCategory>
+          <StatusEffect>Intellect</StatusEffect>
+          <ChanceToContract>100</ChanceToContract>
+          <AffectController>false</AffectController>
+          <AdditionalLevel>0</AdditionalLevel>
+          <NoDealer>false</NoDealer>
+        </SL_Effect>
+		<SL_Effect xsi:type="SL_AddStatusEffect">
+          <Delay>0</Delay>
+          <SyncType>Everyone</SyncType>
+          <OverrideCategory>None</OverrideCategory>
+          <StatusEffect>Wisdom</StatusEffect>
+          <ChanceToContract>100</ChanceToContract>
+          <AffectController>false</AffectController>
+          <AdditionalLevel>0</AdditionalLevel>
+          <NoDealer>false</NoDealer>
+        </SL_Effect>
+		<SL_Effect xsi:type="SL_AddStatusEffect">
+          <Delay>0</Delay>
+          <SyncType>Everyone</SyncType>
+          <OverrideCategory>None</OverrideCategory>
+          <StatusEffect>Charisma</StatusEffect>
+          <ChanceToContract>100</ChanceToContract>
+          <AffectController>false</AffectController>
+          <AdditionalLevel>0</AdditionalLevel>
+          <NoDealer>false</NoDealer>
+        </SL_Effect>
+      </Effects>
+      <EffectConditions>
+        <SL_EffectCondition xsi:type="SL_HasStatusLevelCondition">
+          <Invert>true</Invert>
+          <StatusIdentifier>Strength</StatusIdentifier>
+          <CompareLevel>1</CompareLevel>
+          <CheckOwner>false</CheckOwner>
+          <ComparisonType>GEqual</ComparisonType>
+        </SL_EffectCondition>
+		<SL_EffectCondition xsi:type="SL_HasStatusLevelCondition">
+          <Invert>true</Invert>
+          <StatusIdentifier>Dexterity</StatusIdentifier>
+          <CompareLevel>1</CompareLevel>
+          <CheckOwner>false</CheckOwner>
+          <ComparisonType>GEqual</ComparisonType>
+        </SL_EffectCondition>
+		<SL_EffectCondition xsi:type="SL_HasStatusLevelCondition">
+          <Invert>true</Invert>
+          <StatusIdentifier>Constitution</StatusIdentifier>
+          <CompareLevel>1</CompareLevel>
+          <CheckOwner>false</CheckOwner>
+          <ComparisonType>GEqual</ComparisonType>
+        </SL_EffectCondition>
+		<SL_EffectCondition xsi:type="SL_HasStatusLevelCondition">
+          <Invert>true</Invert>
+          <StatusIdentifier>Intellect</StatusIdentifier>
+          <CompareLevel>1</CompareLevel>
+          <CheckOwner>false</CheckOwner>
+          <ComparisonType>GEqual</ComparisonType>
+        </SL_EffectCondition>
+		<SL_EffectCondition xsi:type="SL_HasStatusLevelCondition">
+          <Invert>true</Invert>
+          <StatusIdentifier>Wisdom</StatusIdentifier>
+          <CompareLevel>1</CompareLevel>
+          <CheckOwner>false</CheckOwner>
+          <ComparisonType>GEqual</ComparisonType>
+        </SL_EffectCondition>
+		<SL_EffectCondition xsi:type="SL_HasStatusLevelCondition">
+          <Invert>true</Invert>
+          <StatusIdentifier>Charisma</StatusIdentifier>
+          <CompareLevel>1</CompareLevel>
+          <CheckOwner>false</CheckOwner>
+          <ComparisonType>GEqual</ComparisonType>
+        </SL_EffectCondition>		
+      </EffectConditions>
+      <ChildEffects />
+    </SL_EffectTransform>
+</EffectTransforms>
   <Cooldown>0</Cooldown>
   <StaminaCost>0</StaminaCost>
   <ManaCost>0</ManaCost>
