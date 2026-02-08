@@ -1,0 +1,26 @@
+<?xml version="1.0" encoding="utf-8"?>
+<SL_DropTable xmlns:xsd="http://www.w3.org/2001/XMLSchema" xmlns:xsi="http://www.w3.org/2001/XMLSchema-instance">
+  <UID>com.iggy.trinkettable</UID>
+  <GuaranteedDrops>
+    <SL_ItemDrop>
+      <MinQty>1</MinQty>
+      <MaxQty>1</MaxQty>
+      <DroppedItemID>-2052</DroppedItemID>
+    </SL_ItemDrop>
+  </GuaranteedDrops>
+  <RandomTables>
+    <SL_RandomDropGenerator>
+      <MinNumberOfDrops>1</MinNumberOfDrops>
+      <MaxNumberOfDrops>3</MaxNumberOfDrops>
+      <NoDrop_DiceValue>5</NoDrop_DiceValue>
+      <Drops>
+        <SL_ItemDropChance>
+          <MinQty>1</MinQty>
+          <MaxQty>1</MaxQty>
+          <DroppedItemID>-2052</DroppedItemID>
+          <DiceValue>10</DiceValue>
+        </SL_ItemDropChance>
+      </Drops>
+    </SL_RandomDropGenerator>
+  </RandomTables>
+</SL_DropTable>

@@ -1,0 +1,95 @@
+<?xml version="1.0"?>
+<SL_Disease xmlns:xsd="http://www.w3.org/2001/XMLSchema" xmlns:xsi="http://www.w3.org/2001/XMLSchema-instance">
+  <TargetStatusIdentifier>Leywilt1</TargetStatusIdentifier>
+  <NewStatusID>-59457</NewStatusID>
+  <StatusIdentifier>CorruptedStart</StatusIdentifier>
+  <Name>CorruptedStart</Name>
+  <Description>CorruptedStart</Description>
+  <Lifespan>-1</Lifespan>
+  <RefreshRate>1</RefreshRate>
+  <Purgeable>false</Purgeable>
+  <Priority>1</Priority>
+  <IgnoreBarrier>false</IgnoreBarrier>
+  <BuildupRecoverySpeed>3</BuildupRecoverySpeed>
+  <IgnoreBuildupIfApplied>false</IgnoreBuildupIfApplied>
+  <AmplifiedStatusIdentifier />
+  <RemoveRequiredStatus>false</RemoveRequiredStatus>
+  <NormalizeDamageDisplay>false</NormalizeDamageDisplay>
+  <DisplayedInHUD>false</DisplayedInHUD>
+  <IsHidden>true</IsHidden>
+  <IsMalusEffect>true</IsMalusEffect>
+  <DelayedDestroyTime>0</DelayedDestroyTime>
+  <ActionOnHit>None</ActionOnHit>
+  <FamilyMode>Bind</FamilyMode>
+  <BindFamily>
+    <UID>CorruptedStart</UID>
+    <Name>CorruptedStart</Name>
+    <StackBehaviour>Override</StackBehaviour>
+    <MaxStackCount>1</MaxStackCount>
+    <LengthType>Long</LengthType>
+  </BindFamily>
+  <PlayFXOnActivation>true</PlayFXOnActivation>
+  <FXOffset>
+    <x>0</x>
+    <y>0</y>
+    <z>0</z>
+  </FXOffset>
+  <VFXInstantiationType>None</VFXInstantiationType>
+  <VFXPrefab xsi:nil="true" />
+  <SpecialSFX>NONE</SpecialSFX>
+  <PlaySpecialFXOnStop>false</PlaySpecialFXOnStop>
+  <EffectBehaviour>Destroy</EffectBehaviour>
+  <Effects>
+    <SL_EffectTransform>
+      <TransformName>NormalEffects</TransformName>
+      <Position xsi:nil="true" />
+      <Rotation xsi:nil="true" />
+      <Scale xsi:nil="true" />
+      <Effects>
+        <SL_Effect xsi:type="SL_AffectCorruption">
+          <Delay>0</Delay>
+          <SyncType>Everyone</SyncType>
+          <OverrideCategory>None</OverrideCategory>
+          <AffectQuantity>5</AffectQuantity>
+          <IsRaw>true</IsRaw>
+        </SL_Effect>
+      </Effects>
+      <EffectConditions>
+        <SL_EffectCondition xsi:type="SL_HasStatusEffectEffectCondition">
+          <Invert>true</Invert>
+          <DiseaseAge>0</DiseaseAge>
+          <CheckOwner>false</CheckOwner>
+          <StatusSelectorType>StatusSpecific</StatusSelectorType>
+          <SelectorValue>Defiled Negative</SelectorValue>
+        </SL_EffectCondition>
+      </EffectConditions>
+      <ChildEffects />
+    </SL_EffectTransform>
+	<SL_EffectTransform>
+      <TransformName>CleanupNormal</TransformName>
+      <Position xsi:nil="true" />
+      <Rotation xsi:nil="true" />
+      <Scale xsi:nil="true" />
+      <Effects>
+        <SL_Effect xsi:type="SL_RemoveStatusEffect">
+          <Delay>0</Delay>
+          <SyncType>Everyone</SyncType>
+          <OverrideCategory>None</OverrideCategory>
+          <CleanseType>StatusSpecific</CleanseType>
+          <SelectorValue>CorruptedStart</SelectorValue>
+        </SL_Effect>
+      </Effects>
+      <EffectConditions>
+        <SL_EffectCondition xsi:type="SL_PassiveSkillCondition">
+          <Invert>true</Invert>
+          <ReqSkillID>-2218</ReqSkillID>
+        </SL_EffectCondition>
+      </EffectConditions>
+    </SL_EffectTransform>
+  </Effects>
+  <AutoHealTime>-1</AutoHealTime>
+  <CanDegenerate>false</CanDegenerate>
+  <DegenerateTime>0.1</DegenerateTime>
+  <DiseaseType>Leywilt</DiseaseType>
+  <SleepHealTime>-1</SleepHealTime>
+</SL_Disease>

@@ -1,0 +1,77 @@
+<?xml version="1.0"?>
+<SL_Skill xmlns:xsd="http://www.w3.org/2001/XMLSchema" xmlns:xsi="http://www.w3.org/2001/XMLSchema-instance">
+  <Target_ItemID>8205100</Target_ItemID>
+  <New_ItemID>-2218</New_ItemID>
+  <Name>Corrupted</Name>
+  <Description>Who are you? Where are you? You don't know how, but you are alive once more. Your soul is tainted by the scourge, but you are no minion. You are back in the world for a reason. To help Aurai.
+
+&lt;color=#00f5ff&gt;Immune to all poisons, Decay resistence +60%, can cast cleanse.&lt;/color&gt;
+
+&lt;color=#ff5043&gt;Passively gains corruption until becoming defiled.&lt;/color&gt;</Description>
+  <LegacyItemID>-1</LegacyItemID>
+  <IsPickable>false</IsPickable>
+  <IsUsable>false</IsUsable>
+  <QtyRemovedOnUse>1</QtyRemovedOnUse>
+  <GroupItemInDisplay>false</GroupItemInDisplay>
+  <HasPhysicsWhenWorld>false</HasPhysicsWhenWorld>
+  <RepairedInRest>true</RepairedInRest>
+  <BehaviorOnNoDurability>NotSet</BehaviorOnNoDurability>
+  <CastType>NONE</CastType>
+  <CastModifier>Immobilized</CastModifier>
+  <CastLocomotionEnabled>false</CastLocomotionEnabled>
+  <MobileCastMovementMult>-1</MobileCastMovementMult>
+  <CastSheatheRequired>1</CastSheatheRequired>
+  <OverrideSellModifier>-1</OverrideSellModifier>
+  <Tags />
+  <ExtensionsEditBehaviour>NONE</ExtensionsEditBehaviour>
+  <ItemExtensions />
+  <EffectBehaviour>Destroy</EffectBehaviour>
+  <EffectTransforms>
+    <SL_EffectTransform>
+      <TransformName>Passive</TransformName>
+      <Position xsi:nil="true" />
+      <Rotation xsi:nil="true" />
+      <Scale xsi:nil="true" />
+      <Effects>
+	    <SL_Effect xsi:type="SL_AddStatusEffect">
+          <Delay>0</Delay>
+          <SyncType>Everyone</SyncType>
+          <OverrideCategory>None</OverrideCategory>
+          <StatusEffect>CorruptedStart</StatusEffect>
+          <ChanceToContract>100</ChanceToContract>
+          <AffectController>false</AffectController>
+          <AdditionalLevel>0</AdditionalLevel>
+          <NoDealer>false</NoDealer>
+        </SL_Effect>
+        <SL_Effect xsi:type="SL_AddStatusImmunity">
+          <Delay>0</Delay>
+          <SyncType>OwnerSync</SyncType>
+          <OverrideCategory>None</OverrideCategory>
+          <ImmunityTag>Poison</ImmunityTag>
+        </SL_Effect>
+        <SL_Effect xsi:type="SL_AffectStat">
+          <Delay>0</Delay>
+          <SyncType>OwnerSync</SyncType>
+          <OverrideCategory>None</OverrideCategory>
+          <Stat_Tag>DecayResistance</Stat_Tag>
+          <AffectQuantity>60</AffectQuantity>
+          <IsModifier>false</IsModifier>
+          <Duration>-1</Duration>
+        </SL_Effect>
+      </Effects>
+      <EffectConditions />
+      <ChildEffects />
+    </SL_EffectTransform>
+  </EffectTransforms>
+  <Cooldown>0</Cooldown>
+  <StaminaCost>0</StaminaCost>
+  <ManaCost>0</ManaCost>
+  <DurabilityCost>0</DurabilityCost>
+  <DurabilityCostPercent>0</DurabilityCostPercent>
+  <VFXOnStart>false</VFXOnStart>
+  <StopStartVFXOnEnd>false</StopStartVFXOnEnd>
+  <StartVFX xsi:nil="true" />
+  <RequiredItems />
+  <HealthCost>0</HealthCost>
+  <RequiredPlayerType>Normal</RequiredPlayerType>
+</SL_Skill>

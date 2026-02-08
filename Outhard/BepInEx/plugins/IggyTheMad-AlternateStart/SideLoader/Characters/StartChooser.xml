@@ -1,0 +1,91 @@
+<?xml version="1.0"?>
+<SL_CharacterTrainer xmlns:xsd="http://www.w3.org/2001/XMLSchema" xmlns:xsi="http://www.w3.org/2001/XMLSchema-instance">
+  <SaveType>Scene</SaveType>
+  <UID>com.iggy.startchooser</UID>
+  <Name>Soul Guide</Name>
+  <DestroyOnDeath>true</DestroyOnDeath>
+  <StartingPose>Normal</StartingPose>
+  <Scale>
+    <x>1</x>
+    <y>1</y>
+    <z>1</z>
+  </Scale>
+  <StartSheathed>true</StartSheathed>
+  <SceneToSpawn>DreamWorld</SceneToSpawn>
+  <SpawnPosition>
+    <x>-11.2</x>
+    <y>0.2</y>
+    <z>-0.6</z>
+  </SpawnPosition>
+  <SpawnRotation>
+    <x>0</x>
+    <y>272.7</y>
+    <z>0</z>
+  </SpawnRotation>
+  <Faction>NONE</Faction>
+  <CharacterVisualsData>
+    <Gender>Female</Gender>
+    <HairColorIndex>0</HairColorIndex>
+    <HairStyleIndex>0</HairStyleIndex>
+    <HeadVariationIndex>0</HeadVariationIndex>
+    <SkinIndex>0</SkinIndex>
+  </CharacterVisualsData>
+  <Weapon_ID xsi:nil="true" />
+  <Shield_ID xsi:nil="true" />
+  <Helmet_ID>3200041</Helmet_ID>
+  <Chest_ID>3200040</Chest_ID>
+  <Boots_ID>3200042</Boots_ID>
+  <Backpack_ID xsi:nil="true" />
+  <Backpack_Items />
+  <Pouch_Items />
+  <LootableOnDeath>false</LootableOnDeath>
+  <DropPouchContents>false</DropPouchContents>
+  <DropWeapons>false</DropWeapons>
+  <Health>1</Health>
+  <HealthRegen>0</HealthRegen>
+  <ImpactResist>0</ImpactResist>
+  <Protection>0</Protection>
+  <Barrier>0</Barrier>
+  <Damage_Resists>
+    <float>0</float>
+    <float>0</float>
+    <float>0</float>
+    <float>0</float>
+    <float>0</float>
+    <float>0</float>
+  </Damage_Resists>
+  <Damage_Bonus>
+    <float>0</float>
+    <float>0</float>
+    <float>0</float>
+    <float>0</float>
+    <float>0</float>
+    <float>0</float>
+  </Damage_Bonus>
+  <Status_Immunity />
+  <AutoTeleportWhenFar>false</AutoTeleportWhenFar>
+  <AutoTeleportDistanceThreshold>25</AutoTeleportDistanceThreshold>
+  <SkillTree>
+    <SigilIconName>SigilVanilla</SigilIconName>
+    <Name>Soul Guide</Name>
+    <UID>com.iggy.destiny</UID>
+    <SkillRows>
+      <SL_SkillRow>
+        <RowIndex>3</RowIndex>
+        <Slots>
+          <SL_BaseSkillSlot xsi:type="SL_SkillSlot">
+            <ColumnIndex>2</ColumnIndex>
+            <RequiredSkillSlot>
+              <x>0</x>
+              <y>0</y>
+            </RequiredSkillSlot>
+            <SkillID>-2200</SkillID>
+            <SilverCost>0</SilverCost>
+            <Breakthrough>false</Breakthrough>
+          </SL_BaseSkillSlot>
+        </Slots>
+      </SL_SkillRow>
+    </SkillRows>
+  </SkillTree>
+  <InitialDialogue>What will be your fate?</InitialDialogue>
+</SL_CharacterTrainer>

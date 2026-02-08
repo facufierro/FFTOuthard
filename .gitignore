@@ -1,0 +1,19 @@
+## Ignore everything by default
+*
+
+## Always keep the ignore file itself
+!.gitignore
+
+## Un-ignore only what we actually want to work on.
+## NOTE: To un-ignore files within an ignored directory, git requires that each
+## parent directory in the path is also un-ignored.
+
+## OutHard: allow only the two target plugins
+!OutHard/
+!OutHard/BepInEx/
+!OutHard/BepInEx/plugins/
+!OutHard/BepInEx/plugins/IggyTheMad-AlternateStart/
+!OutHard/BepInEx/plugins/IggyTheMad-AlternateStart/**
+!OutHard/BepInEx/plugins/IggyTheMad-TrueHardcore/
+!OutHard/BepInEx/plugins/IggyTheMad-TrueHardcore/**
+

@@ -1,0 +1,74 @@
+<?xml version="1.0"?>
+<SL_StatusEffect xmlns:xsd="http://www.w3.org/2001/XMLSchema" xmlns:xsi="http://www.w3.org/2001/XMLSchema-instance">
+  <TargetStatusIdentifier>Gift of Blood Ally</TargetStatusIdentifier>
+  <NewStatusID>-2062</NewStatusID>
+  <StatusIdentifier>EnemyHealing</StatusIdentifier>
+  <Name>EnemyHealing</Name>
+  <Description>EnemyHealing</Description>
+  <Lifespan>25</Lifespan>
+  <RefreshRate>1</RefreshRate>
+  <Purgeable>false</Purgeable>
+  <Priority>1</Priority>
+  <IgnoreBarrier>false</IgnoreBarrier>
+  <BuildupRecoverySpeed>3</BuildupRecoverySpeed>
+  <IgnoreBuildupIfApplied>false</IgnoreBuildupIfApplied>
+  <AmplifiedStatusIdentifier />
+  <ComplicationStatusIdentifier />
+  <RequiredStatusIdentifier />
+  <RemoveRequiredStatus>false</RemoveRequiredStatus>
+  <NormalizeDamageDisplay>false</NormalizeDamageDisplay>
+  <DisplayedInHUD>false</DisplayedInHUD>
+  <IsHidden>true</IsHidden>
+  <IsMalusEffect>false</IsMalusEffect>
+  <DelayedDestroyTime xsi:nil="true" />
+  <ActionOnHit>None</ActionOnHit>
+  <FamilyMode>Bind</FamilyMode>
+  <BindFamily>
+    <UID>com.iggy.enemyregen</UID>
+    <Name>enemy regen</Name>
+    <StackBehaviour>IndependantUnique</StackBehaviour>
+    <MaxStackCount>1</MaxStackCount>
+    <LengthType>Long</LengthType>
+  </BindFamily>
+  <PlayFXOnActivation>false</PlayFXOnActivation>
+  <FXOffset>
+    <x>0</x>
+    <y>0</y>
+    <z>0</z>
+  </FXOffset>
+  <VFXInstantiationType>None</VFXInstantiationType>
+  <VFXPrefab>NONE</VFXPrefab>
+  <SpecialSFX>NONE</SpecialSFX>
+  <PlaySpecialFXOnStop>false</PlaySpecialFXOnStop>
+  <EffectBehaviour>Destroy</EffectBehaviour>
+  <Effects>
+    <SL_EffectTransform>
+      <TransformName>Effects</TransformName>
+      <Position xsi:nil="true" />
+      <Rotation xsi:nil="true" />
+      <Scale xsi:nil="true" />
+      <Effects>
+        <SL_Effect xsi:type="SL_AffectHealth">
+          <Delay>0</Delay>
+          <SyncType>OwnerSync</SyncType>
+          <OverrideCategory>None</OverrideCategory>
+          <AffectQuantity>0.5</AffectQuantity>
+          <IsModifier>true</IsModifier>
+          <AffectQuantityAI>0.5</AffectQuantityAI>
+          <InformSourceCharacter>false</InformSourceCharacter>
+        </SL_Effect>
+		<SL_Effect xsi:type="SL_AffectStat">
+          <Delay>0</Delay>
+          <SyncType>OwnerSync</SyncType>
+          <OverrideCategory>None</OverrideCategory>
+          <Stat_Tag>MovementSpeed</Stat_Tag>
+          <AffectQuantity>20</AffectQuantity>
+          <IsModifier>true</IsModifier>
+          <Duration>-1</Duration>
+        </SL_Effect>
+      </Effects>
+      <EffectConditions />
+      <ChildEffects />
+    </SL_EffectTransform>
+  </Effects>
+</SL_StatusEffect>
