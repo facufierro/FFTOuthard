@@ -31,6 +31,7 @@ public class FFTweaksOuthardPlugin : BaseUnityPlugin
     private void Awake()
     {
         Logger.LogInfo("FFTweaks-Outhard loaded.");
+        Logger.LogInfo(string.Format("FFTweaks-Outhard init: startChoiceIds={0} assembly={1}", StartChoiceIds.Length, typeof(FFTweaksOuthardPlugin).Assembly.Location));
         var harmony = new Harmony("com.fierr.fftwaks");
         harmony.PatchAll(typeof(FFTweaksOuthardPlugin));
     }
