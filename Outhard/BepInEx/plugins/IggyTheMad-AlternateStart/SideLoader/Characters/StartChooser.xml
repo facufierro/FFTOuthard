@@ -71,7 +71,7 @@
     <UID>com.iggy.destiny</UID>
     <SkillRows>
       <SL_SkillRow>
-        <RowIndex>3</RowIndex>
+        <RowIndex>1</RowIndex>
         <Slots>
           <SL_BaseSkillSlot xsi:type="SL_SkillSlot">
             <ColumnIndex>3</ColumnIndex>
@@ -86,7 +86,7 @@
         </Slots>
       </SL_SkillRow>
       <SL_SkillRow>
-        <RowIndex>4</RowIndex>
+        <RowIndex>2</RowIndex>
         <Slots>
           <SL_BaseSkillSlot xsi:type="SL_SkillSlot">
             <ColumnIndex>1</ColumnIndex>
