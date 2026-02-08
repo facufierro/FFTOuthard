@@ -1,8 +1,0 @@
-C:\Users\fierr\AppData\Roaming\r2modmanPlus-local\OutwardDe\profiles\Outhard\BepInEx\plugins\FFTweaks-Outhard\obj\Release\net472\FFTweaks-Outhard.csproj.AssemblyReference.cache
-C:\Users\fierr\AppData\Roaming\r2modmanPlus-local\OutwardDe\profiles\Outhard\BepInEx\plugins\FFTweaks-Outhard\obj\Release\net472\FFTweaks-Outhard.GeneratedMSBuildEditorConfig.editorconfig
-C:\Users\fierr\AppData\Roaming\r2modmanPlus-local\OutwardDe\profiles\Outhard\BepInEx\plugins\FFTweaks-Outhard\obj\Release\net472\FFTweaks-Outhard.csproj.CoreCompileInputs.cache
-C:\Users\fierr\AppData\Roaming\r2modmanPlus-local\OutwardDe\profiles\Outhard\BepInEx\plugins\FFTweaks-Outhard\obj\Release\net472\FFTweaks-Outhard.sourcelink.json
-C:\Users\fierr\AppData\Roaming\r2modmanPlus-local\OutwardDe\profiles\Outhard\BepInEx\plugins\FFTweaks-Outhard\obj\Release\net472\FFTweaks-Outhard.dll
-C:\Users\fierr\AppData\Roaming\r2modmanPlus-local\OutwardDe\profiles\Outhard\BepInEx\plugins\FFTweaks-Outhard\obj\Release\net472\FFTweaks-Outhard.pdb
-C:\Users\fierr\AppData\Roaming\r2modmanPlus-local\OutwardDe\profiles\Outhard\BepInEx\plugins\FFTweaks-Outhard\FFTweaks-Outhard.dll
-C:\Users\fierr\AppData\Roaming\r2modmanPlus-local\OutwardDe\profiles\Outhard\BepInEx\plugins\FFTweaks-Outhard\FFTweaks-Outhard.pdb
