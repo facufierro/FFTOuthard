@@ -3,11 +3,10 @@
   <Target_ItemID>8205100</Target_ItemID>
   <New_ItemID>-2216</New_ItemID>
   <Name>Harmattan Trader</Name>
-  <Description>Money is your life. Harmattan has taught you about haggling and trading. Making your own little fortune, traveling all over Aurai. You are to deliver goods to Cierzo but what comes next is yet to be seen.
+  <Description>Money is your life. Harmattan has taught you about haggling and trading. Making your own little fortune, traveling all over Aurai. You are to deliver goods to Cierzo but what comes next is yet to be seen. A life of luxury has made you complacent.
 
-&lt;color=#00f5ff&gt;Buy prices -25% and Pouch size +10.&lt;/color&gt;
-
-&lt;color=#ff5043&gt;All resistances -10.&lt;/color&gt;</Description>
+&lt;color=#00f5ff&gt;[Reduced buy prices by 20%]&lt;/color&gt;
+&lt;color=#ff5043&gt;[Get hungry and tired 20% faster]&lt;/color&gt;</Description>
   <LegacyItemID>-1</LegacyItemID>
   <IsPickable>false</IsPickable>
   <IsUsable>false</IsUsable>
@@ -38,7 +37,7 @@
           <SyncType>OwnerSync</SyncType>
           <OverrideCategory>None</OverrideCategory>
           <Stat_Tag>BuyModifier</Stat_Tag>
-          <AffectQuantity>-25</AffectQuantity>
+          <AffectQuantity>-20</AffectQuantity>
           <IsModifier>true</IsModifier>
           <Tags />
           <Duration>-1</Duration>
@@ -47,8 +46,8 @@
           <Delay>0</Delay>
           <SyncType>OwnerSync</SyncType>
           <OverrideCategory>None</OverrideCategory>
-          <Stat_Tag>AllResistances</Stat_Tag>
-          <AffectQuantity>-10</AffectQuantity>
+          <Stat_Tag>FoodDepleteRate</Stat_Tag>
+          <AffectQuantity>+3</AffectQuantity>
           <IsModifier>false</IsModifier>
           <Duration>-1</Duration>
         </SL_Effect>
@@ -56,8 +55,8 @@
           <Delay>0</Delay>
           <SyncType>OwnerSync</SyncType>
           <OverrideCategory>None</OverrideCategory>
-          <Stat_Tag>PouchCapacity</Stat_Tag>
-          <AffectQuantity>10</AffectQuantity>
+          <Stat_Tag>SleepDepleteRate</Stat_Tag>
+          <AffectQuantity>+3</AffectQuantity>
           <IsModifier>false</IsModifier>
           <Duration>-1</Duration>
         </SL_Effect>
@@ -65,121 +64,7 @@
       <EffectConditions />
       <ChildEffects />
     </SL_EffectTransform>
-  
-<SL_EffectTransform>
-      <TransformName>Passive</TransformName>
-      <Position xsi:nil="true" />
-      <Rotation xsi:nil="true" />
-      <Scale xsi:nil="true" />
-      <Effects>
-		<SL_Effect xsi:type="SL_AddStatusEffect">
-          <Delay>0</Delay>
-          <SyncType>Everyone</SyncType>
-          <OverrideCategory>None</OverrideCategory>
-          <StatusEffect>Strength</StatusEffect>
-          <ChanceToContract>100</ChanceToContract>
-          <AffectController>false</AffectController>
-          <AdditionalLevel>0</AdditionalLevel>
-          <NoDealer>false</NoDealer>
-        </SL_Effect>
-		<SL_Effect xsi:type="SL_AddStatusEffect">
-          <Delay>0</Delay>
-          <SyncType>Everyone</SyncType>
-          <OverrideCategory>None</OverrideCategory>
-          <StatusEffect>Dexterity</StatusEffect>
-          <ChanceToContract>100</ChanceToContract>
-          <AffectController>false</AffectController>
-          <AdditionalLevel>0</AdditionalLevel>
-          <NoDealer>false</NoDealer>
-        </SL_Effect>
-		<SL_Effect xsi:type="SL_AddStatusEffect">
-          <Delay>0</Delay>
-          <SyncType>Everyone</SyncType>
-          <OverrideCategory>None</OverrideCategory>
-          <StatusEffect>Constitution</StatusEffect>
-          <ChanceToContract>100</ChanceToContract>
-          <AffectController>false</AffectController>
-          <AdditionalLevel>0</AdditionalLevel>
-          <NoDealer>false</NoDealer>
-        </SL_Effect>
-		<SL_Effect xsi:type="SL_AddStatusEffect">
-          <Delay>0</Delay>
-          <SyncType>Everyone</SyncType>
-          <OverrideCategory>None</OverrideCategory>
-          <StatusEffect>Intellect</StatusEffect>
-          <ChanceToContract>100</ChanceToContract>
-          <AffectController>false</AffectController>
-          <AdditionalLevel>0</AdditionalLevel>
-          <NoDealer>false</NoDealer>
-        </SL_Effect>
-		<SL_Effect xsi:type="SL_AddStatusEffect">
-          <Delay>0</Delay>
-          <SyncType>Everyone</SyncType>
-          <OverrideCategory>None</OverrideCategory>
-          <StatusEffect>Wisdom</StatusEffect>
-          <ChanceToContract>100</ChanceToContract>
-          <AffectController>false</AffectController>
-          <AdditionalLevel>0</AdditionalLevel>
-          <NoDealer>false</NoDealer>
-        </SL_Effect>
-		<SL_Effect xsi:type="SL_AddStatusEffect">
-          <Delay>0</Delay>
-          <SyncType>Everyone</SyncType>
-          <OverrideCategory>None</OverrideCategory>
-          <StatusEffect>Charisma</StatusEffect>
-          <ChanceToContract>100</ChanceToContract>
-          <AffectController>false</AffectController>
-          <AdditionalLevel>0</AdditionalLevel>
-          <NoDealer>false</NoDealer>
-        </SL_Effect>
-      </Effects>
-      <EffectConditions>
-        <SL_EffectCondition xsi:type="SL_HasStatusLevelCondition">
-          <Invert>true</Invert>
-          <StatusIdentifier>Strength</StatusIdentifier>
-          <CompareLevel>1</CompareLevel>
-          <CheckOwner>false</CheckOwner>
-          <ComparisonType>GEqual</ComparisonType>
-        </SL_EffectCondition>
-		<SL_EffectCondition xsi:type="SL_HasStatusLevelCondition">
-          <Invert>true</Invert>
-          <StatusIdentifier>Dexterity</StatusIdentifier>
-          <CompareLevel>1</CompareLevel>
-          <CheckOwner>false</CheckOwner>
-          <ComparisonType>GEqual</ComparisonType>
-        </SL_EffectCondition>
-		<SL_EffectCondition xsi:type="SL_HasStatusLevelCondition">
-          <Invert>true</Invert>
-          <StatusIdentifier>Constitution</StatusIdentifier>
-          <CompareLevel>1</CompareLevel>
-          <CheckOwner>false</CheckOwner>
-          <ComparisonType>GEqual</ComparisonType>
-        </SL_EffectCondition>
-		<SL_EffectCondition xsi:type="SL_HasStatusLevelCondition">
-          <Invert>true</Invert>
-          <StatusIdentifier>Intellect</StatusIdentifier>
-          <CompareLevel>1</CompareLevel>
-          <CheckOwner>false</CheckOwner>
-          <ComparisonType>GEqual</ComparisonType>
-        </SL_EffectCondition>
-		<SL_EffectCondition xsi:type="SL_HasStatusLevelCondition">
-          <Invert>true</Invert>
-          <StatusIdentifier>Wisdom</StatusIdentifier>
-          <CompareLevel>1</CompareLevel>
-          <CheckOwner>false</CheckOwner>
-          <ComparisonType>GEqual</ComparisonType>
-        </SL_EffectCondition>
-		<SL_EffectCondition xsi:type="SL_HasStatusLevelCondition">
-          <Invert>true</Invert>
-          <StatusIdentifier>Charisma</StatusIdentifier>
-          <CompareLevel>1</CompareLevel>
-          <CheckOwner>false</CheckOwner>
-          <ComparisonType>GEqual</ComparisonType>
-        </SL_EffectCondition>		
-      </EffectConditions>
-      <ChildEffects />
-    </SL_EffectTransform>
-</EffectTransforms>
+  </EffectTransforms>
   <Cooldown>0</Cooldown>
   <StaminaCost>0</StaminaCost>
   <ManaCost>0</ManaCost>
