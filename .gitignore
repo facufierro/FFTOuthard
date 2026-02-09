@@ -5,6 +5,9 @@
 !.gitignore
 !build_fftweaks.ps1
 !decompile_mod.ps1
+!.github/
+!.github/workflows/
+!.github/workflows/**
 ## Un-ignore only what we actually want to work on.
 ## NOTE: To un-ignore files within an ignored directory, git requires that each
 ## parent directory in the path is also un-ignored.
