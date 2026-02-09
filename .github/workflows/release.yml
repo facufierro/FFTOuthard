@@ -15,15 +15,14 @@ jobs:
       - name: Checkout
         uses: actions/checkout@v4
 
-      - name: Create zip from Outhard contents
+      - name: Create zip from release contents
         shell: bash
         run: |
           if [[ ! "$GITHUB_REF_NAME" =~ ^v[0-9]+\.[0-9]+\.[0-9]+$ ]]; then
             echo "Tag must match vMAJOR.MINOR.PATCH (e.g. v1.2.3)."
             exit 1
           fi
-          cd Outhard
-          zip -r "../FFTOuthard-${GITHUB_REF_NAME}.zip" .
+          zip -r "FFTOuthard-${GITHUB_REF_NAME}.zip" BepInEx
 
       - name: Create GitHub release
         uses: softprops/action-gh-release@v2

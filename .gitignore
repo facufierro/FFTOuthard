@@ -5,6 +5,8 @@
 !.gitignore
 !build_fftweaks.ps1
 !decompile_mod.ps1
+!com.iggy.hardcorere.cfg
+!com.sinai.combathud.cfg
 !.github/
 !.github/workflows/
 !.github/workflows/**
@@ -13,19 +15,17 @@
 ## parent directory in the path is also un-ignored.
 
 ## OutHard: allow only the specified plugins/files
+!BepInEx/
+!BepInEx/plugins/
 
-!OutHard/
-!OutHard/BepInEx/
-!OutHard/BepInEx/plugins/
+!BepInEx/config/
+!BepInEx/config/io.mefino.configurationmanager.cfg
 
-!OutHard/BepInEx/config/
-!OutHard/BepInEx/config/io.mefino.configurationmanager.cfg
+!BepInEx/plugins/IggyTheMad-TrueHardcore/
+!BepInEx/plugins/IggyTheMad-TrueHardcore/HardcoreRebalance.dll
 
-!OutHard/BepInEx/plugins/IggyTheMad-TrueHardcore/
-!OutHard/BepInEx/plugins/IggyTheMad-TrueHardcore/HardcoreRebalance.dll
+!BepInEx/plugins/aa_FFTweaks - OutHard Layout/
+!BepInEx/plugins/aa_FFTweaks - OutHard Layout/**
 
-!OutHard/BepInEx/plugins/aa_FFTweaks - OutHard Layout/
-!OutHard/BepInEx/plugins/aa_FFTweaks - OutHard Layout/**
-
-!OutHard/BepInEx/plugins/zz_FFTweaks - OutHard Items/
-!OutHard/BepInEx/plugins/zz_FFTweaks - OutHard Items/**
+!BepInEx/plugins/zz_FFTweaks - OutHard Items/
+!BepInEx/plugins/zz_FFTweaks - OutHard Items/**
