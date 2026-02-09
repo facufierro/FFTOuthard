@@ -15,6 +15,9 @@
 !OutHard/BepInEx/
 !OutHard/BepInEx/plugins/
 
+!OutHard/BepInEx/config/
+!OutHard/BepInEx/config/io.mefino.configurationmanager.cfg
+
 !OutHard/BepInEx/plugins/IggyTheMad-TrueHardcore/
 !OutHard/BepInEx/plugins/IggyTheMad-TrueHardcore/HardcoreRebalance.dll
 
