@@ -3,10 +3,10 @@
   <Target_ItemID>8205100</Target_ItemID>
   <New_ItemID>-2219</New_ItemID>
   <Name>Chosen One</Name>
-  <Description>You may not know it yet, but you are special. Elatt has chosen you as his warrior, blessing you with increased limits than other humans. Choose wisely and break the limits of Aurai.
+  <Description>You may not know it yet, but you are now special. Elatt has chosen you as his warrior, blessing you with increased limits than other humans. Choose wisely and break the limits of Aurai.
 
-&lt;color=#00f5ff&gt;Breakthrough point +1&lt;/color&gt;
-&lt;color=#ff5043&gt;All resistances -10, Mana and stamina use +10% and All skill learning cost +25%.&lt;/color&gt;</Description>
+&lt;color=#00f5ff&gt;[Gain a fourth Breakthrough point]&lt;/color&gt;
+&lt;color=#ff5043&gt;[+15% chance to be critically hit by enemies and All skill learning cost increased by 25%]&lt;/color&gt;</Description>
   <LegacyItemID>-1</LegacyItemID>
   <IsPickable>false</IsPickable>
   <IsUsable>false</IsUsable>
@@ -37,28 +37,8 @@
           <SyncType>OwnerSync</SyncType>
           <OverrideCategory>None</OverrideCategory>
           <Stat_Tag>AllResistances</Stat_Tag>
-          <AffectQuantity>-10</AffectQuantity>
+          <AffectQuantity>0</AffectQuantity>
           <IsModifier>false</IsModifier>
-          <Duration>-1</Duration>
-        </SL_Effect>
-		<SL_Effect xsi:type="SL_AffectStat">
-          <Delay>0</Delay>
-          <SyncType>OwnerSync</SyncType>
-          <OverrideCategory>None</OverrideCategory>
-          <Stat_Tag>ManaUse</Stat_Tag>
-          <AffectQuantity>10</AffectQuantity>
-          <IsModifier>true</IsModifier>
-          <Tags />
-          <Duration>-1</Duration>
-        </SL_Effect>
-		<SL_Effect xsi:type="SL_AffectStat">
-          <Delay>0</Delay>
-          <SyncType>OwnerSync</SyncType>
-          <OverrideCategory>None</OverrideCategory>
-          <Stat_Tag>StaminaUse</Stat_Tag>
-          <AffectQuantity>10</AffectQuantity>
-          <IsModifier>true</IsModifier>
-          <Tags />
           <Duration>-1</Duration>
         </SL_Effect>
       </Effects>

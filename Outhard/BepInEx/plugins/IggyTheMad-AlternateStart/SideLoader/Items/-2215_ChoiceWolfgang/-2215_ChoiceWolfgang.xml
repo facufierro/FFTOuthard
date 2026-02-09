@@ -3,11 +3,10 @@
   <Target_ItemID>8205100</Target_ItemID>
   <New_ItemID>-2215</New_ItemID>
   <Name>Wolfgang Mercenary</Name>
-  <Description>You've lived by the sword, not a single silver earned without bloodshed. You've been hired to do terrible things, all in the name of gold. your reputation is tarnished, but maybe this time, you will do the right thing.
+  <Description>You've lived by the sword, not a single silver earned without bloodshed. You've been hired to do terrible things, all in the name of gold. Your soul is shattered, but maybe this time, you will do the right thing.
 
-&lt;color=#00f5ff&gt;Deal +0.5% physical damage per current stamina point.&lt;/color&gt;
-
-&lt;color=#ff5043&gt;Buy prices +25% and Elemental damage -20%.&lt;/color&gt;</Description>
+&lt;color=#00f5ff&gt;[Deal 0.5% more physical damage per current stamina point.]&lt;/color&gt;
+&lt;color=#ff5043&gt;[All Magic Resistances -30.]&lt;/color&gt;</Description>
   <LegacyItemID>-1</LegacyItemID>
   <IsPickable>false</IsPickable>
   <IsUsable>false</IsUsable>
@@ -37,17 +36,8 @@
           <Delay>0</Delay>
           <SyncType>OwnerSync</SyncType>
           <OverrideCategory>None</OverrideCategory>
-          <Stat_Tag>BuyModifier</Stat_Tag>
-          <AffectQuantity>25</AffectQuantity>
-          <IsModifier>true</IsModifier>
-          <Duration>-1</Duration>
-        </SL_Effect>
-        <SL_Effect xsi:type="SL_AffectStat">
-          <Delay>0</Delay>
-          <SyncType>OwnerSync</SyncType>
-          <OverrideCategory>None</OverrideCategory>
-          <Stat_Tag>EtherealDamage</Stat_Tag>
-          <AffectQuantity>-0.2</AffectQuantity>
+          <Stat_Tag>EtherealResistance</Stat_Tag>
+          <AffectQuantity>-30</AffectQuantity>
           <IsModifier>false</IsModifier>
           <Duration>-1</Duration>
         </SL_Effect>
@@ -55,8 +45,8 @@
           <Delay>0</Delay>
           <SyncType>OwnerSync</SyncType>
           <OverrideCategory>None</OverrideCategory>
-          <Stat_Tag>DecayDamage</Stat_Tag>
-          <AffectQuantity>-0.2</AffectQuantity>
+          <Stat_Tag>DecayResistance</Stat_Tag>
+          <AffectQuantity>-30</AffectQuantity>
           <IsModifier>false</IsModifier>
           <Duration>-1</Duration>
         </SL_Effect>
@@ -64,8 +54,8 @@
           <Delay>0</Delay>
           <SyncType>OwnerSync</SyncType>
           <OverrideCategory>None</OverrideCategory>
-          <Stat_Tag>ElectricDamage</Stat_Tag>
-          <AffectQuantity>-0.2</AffectQuantity>
+          <Stat_Tag>ElectricResistance</Stat_Tag>
+          <AffectQuantity>-30</AffectQuantity>
           <IsModifier>false</IsModifier>
           <Duration>-1</Duration>
         </SL_Effect>
@@ -73,8 +63,8 @@
           <Delay>0</Delay>
           <SyncType>OwnerSync</SyncType>
           <OverrideCategory>None</OverrideCategory>
-          <Stat_Tag>FrostDamage</Stat_Tag>
-          <AffectQuantity>-0.2</AffectQuantity>
+          <Stat_Tag>FrostResistance</Stat_Tag>
+          <AffectQuantity>-30</AffectQuantity>
           <IsModifier>false</IsModifier>
           <Duration>-1</Duration>
         </SL_Effect>
@@ -82,8 +72,8 @@
           <Delay>0</Delay>
           <SyncType>OwnerSync</SyncType>
           <OverrideCategory>None</OverrideCategory>
-          <Stat_Tag>FireDamage</Stat_Tag>
-          <AffectQuantity>-0.2</AffectQuantity>
+          <Stat_Tag>FireResistance</Stat_Tag>
+          <AffectQuantity>-30</AffectQuantity>
           <IsModifier>false</IsModifier>
           <Duration>-1</Duration>
         </SL_Effect>

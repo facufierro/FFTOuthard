@@ -2,12 +2,8 @@
 <SL_Skill xmlns:xsd="http://www.w3.org/2001/XMLSchema" xmlns:xsi="http://www.w3.org/2001/XMLSchema-instance">
   <Target_ItemID>8205100</Target_ItemID>
   <New_ItemID>-2205</New_ItemID>
-  <Name>Abrassar Refugee</Name>
-  <Description>After years of the great exodus surviving has not been easy, however your ancestors have been resilient until now. but not content to flee forever you have decided to live your life away from your tribe.
-  
-&lt;color=#00f5ff&gt;Max Stamina +10 and all Weather resistance +10, know Slow Metabolism.&lt;/color&gt;
-
-&lt;color=#ff5043&gt;Buy prices +10%.&lt;/color&gt;</Description>
+  <Name>Vanilla-like: Monsoon</Name>
+  <Description>Choose the Hallowed Marsh as your starting zone, ready to join any faction.</Description>
   <LegacyItemID>-1</LegacyItemID>
   <IsPickable>false</IsPickable>
   <IsUsable>false</IsUsable>
@@ -33,53 +29,6 @@
       <Rotation xsi:nil="true" />
       <Scale xsi:nil="true" />
       <Effects />
-      <EffectConditions />
-      <ChildEffects />
-    </SL_EffectTransform>
-	<SL_EffectTransform>
-      <TransformName>Passive</TransformName>
-      <Position xsi:nil="true" />
-      <Rotation xsi:nil="true" />
-      <Scale xsi:nil="true" />
-      <Effects>
-	    <SL_Effect xsi:type="SL_AffectStat">
-          <Delay>0</Delay>
-          <SyncType>OwnerSync</SyncType>
-          <OverrideCategory>None</OverrideCategory>
-          <Stat_Tag>MaxStamina</Stat_Tag>
-          <AffectQuantity>10</AffectQuantity>
-          <IsModifier>false</IsModifier>
-          <Duration>-1</Duration>
-        </SL_Effect>
-        <SL_Effect xsi:type="SL_AffectStat">
-          <Delay>0</Delay>
-          <SyncType>OwnerSync</SyncType>
-          <OverrideCategory>None</OverrideCategory>
-          <Stat_Tag>BuyModifier</Stat_Tag>
-          <AffectQuantity>10</AffectQuantity>
-          <IsModifier>true</IsModifier>
-          <Tags />
-          <Duration>-1</Duration>
-        </SL_Effect>
-        <SL_Effect xsi:type="SL_AffectStat">
-          <Delay>0</Delay>
-          <SyncType>OwnerSync</SyncType>
-          <OverrideCategory>None</OverrideCategory>
-          <Stat_Tag>EnvHeatProtection</Stat_Tag>
-          <AffectQuantity>10</AffectQuantity>
-          <IsModifier>false</IsModifier>
-          <Duration>-1</Duration>
-        </SL_Effect>
-        <SL_Effect xsi:type="SL_AffectStat">
-          <Delay>0</Delay>
-          <SyncType>OwnerSync</SyncType>
-          <OverrideCategory>None</OverrideCategory>
-          <Stat_Tag>EnvColdProtection</Stat_Tag>
-          <AffectQuantity>10</AffectQuantity>
-          <IsModifier>false</IsModifier>
-          <Duration>-1</Duration>
-        </SL_Effect>
-      </Effects>
       <EffectConditions />
       <ChildEffects />
     </SL_EffectTransform>

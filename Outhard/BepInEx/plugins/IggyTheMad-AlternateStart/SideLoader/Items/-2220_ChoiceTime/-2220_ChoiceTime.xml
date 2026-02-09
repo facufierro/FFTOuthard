@@ -6,7 +6,7 @@
   <Description>You have been sent to fix the timeline. Your innate control of time magic allows you to aid Aurai like no other. But your presence at this time requires immense concentration...
 
 &lt;color=#00f5ff&gt;[Time-Mage breakthrough unlocked at no cost]&lt;/color&gt;
-&lt;color=#ff5043&gt;[Mana slowly drains over time and when hit]&lt;/color&gt;</Description>
+&lt;color=#ff5043&gt;[Mana slowly drains over time and casting spells consume stability]&lt;/color&gt;</Description>
   <LegacyItemID>-1</LegacyItemID>
   <IsPickable>false</IsPickable>
   <IsUsable>false</IsUsable>

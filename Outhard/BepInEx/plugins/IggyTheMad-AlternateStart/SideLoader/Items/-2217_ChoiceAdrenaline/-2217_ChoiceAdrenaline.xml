@@ -5,9 +5,10 @@
   <Name>Survivor</Name>
   <Description>Relaxed and happy, a simple life until Cierzo got invaded, forcing you to flee. You might just be the only survivor... or not?
 
-&lt;color=#00f5ff&gt;All damage +20% when 75% health, Gain Rage boon when 50% health and Attack speed +0.2 at 25% health.&lt;/color&gt;
-
-&lt;color=#ff5043&gt;All resistances -10.&lt;/color&gt;</Description>
+&lt;color=#00f5ff&gt;[When below 75% HP: +20% Damage Dealt.
+When below 50% HP: Gain Rage boon.
+When below 25% HP: +0.2 attack speed.]&lt;/color&gt;
+&lt;color=#ff5043&gt;[All resistances reduced by 15]&lt;/color&gt;</Description>
   <LegacyItemID>-1</LegacyItemID>
   <IsPickable>false</IsPickable>
   <IsUsable>false</IsUsable>
@@ -38,7 +39,7 @@
           <SyncType>OwnerSync</SyncType>
           <OverrideCategory>None</OverrideCategory>
           <Stat_Tag>AllResistances</Stat_Tag>
-          <AffectQuantity>-10</AffectQuantity>
+          <AffectQuantity>-15</AffectQuantity>
           <IsModifier>false</IsModifier>
           <Duration>-1</Duration>
         </SL_Effect>

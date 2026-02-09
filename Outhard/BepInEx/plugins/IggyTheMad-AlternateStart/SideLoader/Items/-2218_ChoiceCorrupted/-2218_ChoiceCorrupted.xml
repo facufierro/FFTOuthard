@@ -5,9 +5,8 @@
   <Name>Corrupted</Name>
   <Description>Who are you? Where are you? You don't know how, but you are alive once more. Your soul is tainted by the scourge, but you are no minion. You are back in the world for a reason. To help Aurai.
 
-&lt;color=#00f5ff&gt;Immune to all poisons, Decay resistence +60%, can cast cleanse.&lt;/color&gt;
-
-&lt;color=#ff5043&gt;Passively gains corruption until becoming defiled.&lt;/color&gt;</Description>
+&lt;color=#00f5ff&gt;[Increased Mana and immune to poisons]&lt;/color&gt;
+&lt;color=#ff5043&gt;[Permanently at full Corruption]&lt;/color&gt;</Description>
   <LegacyItemID>-1</LegacyItemID>
   <IsPickable>false</IsPickable>
   <IsUsable>false</IsUsable>
@@ -33,16 +32,6 @@
       <Rotation xsi:nil="true" />
       <Scale xsi:nil="true" />
       <Effects>
-	    <SL_Effect xsi:type="SL_AddStatusEffect">
-          <Delay>0</Delay>
-          <SyncType>Everyone</SyncType>
-          <OverrideCategory>None</OverrideCategory>
-          <StatusEffect>CorruptedStart</StatusEffect>
-          <ChanceToContract>100</ChanceToContract>
-          <AffectController>false</AffectController>
-          <AdditionalLevel>0</AdditionalLevel>
-          <NoDealer>false</NoDealer>
-        </SL_Effect>
         <SL_Effect xsi:type="SL_AddStatusImmunity">
           <Delay>0</Delay>
           <SyncType>OwnerSync</SyncType>
@@ -53,8 +42,26 @@
           <Delay>0</Delay>
           <SyncType>OwnerSync</SyncType>
           <OverrideCategory>None</OverrideCategory>
-          <Stat_Tag>DecayResistance</Stat_Tag>
-          <AffectQuantity>60</AffectQuantity>
+          <Stat_Tag>MaxMana</Stat_Tag>
+          <AffectQuantity>30</AffectQuantity>
+          <IsModifier>false</IsModifier>
+          <Duration>-1</Duration>
+        </SL_Effect>
+        <SL_Effect xsi:type="SL_AffectStat">
+          <Delay>0</Delay>
+          <SyncType>OwnerSync</SyncType>
+          <OverrideCategory>None</OverrideCategory>
+          <Stat_Tag>MaxHealth</Stat_Tag>
+          <AffectQuantity>5</AffectQuantity>
+          <IsModifier>false</IsModifier>
+          <Duration>-1</Duration>
+        </SL_Effect>
+        <SL_Effect xsi:type="SL_AffectStat">
+          <Delay>0</Delay>
+          <SyncType>OwnerSync</SyncType>
+          <OverrideCategory>None</OverrideCategory>
+          <Stat_Tag>MaxStamina</Stat_Tag>
+          <AffectQuantity>5</AffectQuantity>
           <IsModifier>false</IsModifier>
           <Duration>-1</Duration>
         </SL_Effect>

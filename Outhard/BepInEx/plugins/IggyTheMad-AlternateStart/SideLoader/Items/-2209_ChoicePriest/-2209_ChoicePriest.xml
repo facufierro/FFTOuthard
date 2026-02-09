@@ -5,9 +5,8 @@
   <Name>Priest of Elatt</Name>
   <Description>Elatt's light has blessed you since you were born. Your connection with the holy is so strong it feels like second nature to you. Aurai needs dedicated and selfless people more than ever.
 
-&lt;color=#00f5ff&gt;Corruption resistence +10, When under the effect of blessed boon passively heals corruption.&lt;/color&gt;
-
-&lt;color=#ff5043&gt;All damage -10% and Sell prices -20%.&lt;/color&gt;</Description>
+&lt;color=#00f5ff&gt;[All damage dealt is turned into electric damage.]&lt;/color&gt;
+&lt;color=#ff5043&gt;[Damage dealt reduced by 25%.]&lt;/color&gt;</Description>
   <LegacyItemID>-1</LegacyItemID>
   <IsPickable>false</IsPickable>
   <IsUsable>false</IsUsable>
@@ -32,82 +31,7 @@
       <Position xsi:nil="true" />
       <Rotation xsi:nil="true" />
       <Scale xsi:nil="true" />
-      <Effects>
-	    <SL_Effect xsi:type="SL_AffectStat">
-          <Delay>0</Delay>
-          <SyncType>Everyone</SyncType>
-          <OverrideCategory>None</OverrideCategory>
-          <Stat_Tag>CorruptionResistance</Stat_Tag>
-          <AffectQuantity>20</AffectQuantity>
-          <IsModifier>false</IsModifier>
-          <Tags />
-          <Duration>-1</Duration>
-        </SL_Effect>
-		<SL_Effect xsi:type="SL_AffectStat">
-          <Delay>0</Delay>
-          <SyncType>OwnerSync</SyncType>
-          <OverrideCategory>None</OverrideCategory>
-          <Stat_Tag>SellModifier</Stat_Tag>
-          <AffectQuantity>-10</AffectQuantity>
-          <IsModifier>true</IsModifier>
-          <Tags />
-          <Duration>-1</Duration>
-        </SL_Effect>
-		<SL_Effect xsi:type="SL_AffectStat">
-          <Delay>0</Delay>
-          <SyncType>OwnerSync</SyncType>
-          <OverrideCategory>None</OverrideCategory>
-          <Stat_Tag>PhysicalDamage</Stat_Tag>
-          <AffectQuantity>-0.1</AffectQuantity>
-          <IsModifier>false</IsModifier>
-          <Duration>-1</Duration>
-        </SL_Effect>
-		<SL_Effect xsi:type="SL_AffectStat">
-          <Delay>0</Delay>
-          <SyncType>OwnerSync</SyncType>
-          <OverrideCategory>None</OverrideCategory>
-          <Stat_Tag>EtherealDamage</Stat_Tag>
-          <AffectQuantity>-0.1</AffectQuantity>
-          <IsModifier>false</IsModifier>
-          <Duration>-1</Duration>
-        </SL_Effect>
-        <SL_Effect xsi:type="SL_AffectStat">
-          <Delay>0</Delay>
-          <SyncType>OwnerSync</SyncType>
-          <OverrideCategory>None</OverrideCategory>
-          <Stat_Tag>DecayDamage</Stat_Tag>
-          <AffectQuantity>-0.1</AffectQuantity>
-          <IsModifier>false</IsModifier>
-          <Duration>-1</Duration>
-        </SL_Effect>
-        <SL_Effect xsi:type="SL_AffectStat">
-          <Delay>0</Delay>
-          <SyncType>OwnerSync</SyncType>
-          <OverrideCategory>None</OverrideCategory>
-          <Stat_Tag>ElectricDamage</Stat_Tag>
-          <AffectQuantity>-0.1</AffectQuantity>
-          <IsModifier>false</IsModifier>
-          <Duration>-1</Duration>
-        </SL_Effect>
-        <SL_Effect xsi:type="SL_AffectStat">
-          <Delay>0</Delay>
-          <SyncType>OwnerSync</SyncType>
-          <OverrideCategory>None</OverrideCategory>
-          <Stat_Tag>FrostDamage</Stat_Tag>
-          <AffectQuantity>-0.1</AffectQuantity>
-          <IsModifier>false</IsModifier>
-          <Duration>-1</Duration>
-        </SL_Effect>
-        <SL_Effect xsi:type="SL_AffectStat">
-          <Delay>0</Delay>
-          <SyncType>OwnerSync</SyncType>
-          <OverrideCategory>None</OverrideCategory>
-          <Stat_Tag>FireDamage</Stat_Tag>
-          <AffectQuantity>-0.1</AffectQuantity>
-          <IsModifier>false</IsModifier>
-          <Duration>-1</Duration>
-        </SL_Effect>
-      </Effects>
+      <Effects />
       <EffectConditions />
       <ChildEffects />
     </SL_EffectTransform>

@@ -5,9 +5,8 @@
   <Name>War Veteran</Name>
   <Description>You know nothing but war. You are a seasoned warrior who has endured the worst scenarios. You know how to fight and how to survive like no other. Despite no longer being in your prime, Aurai needs your sword once more. 
 
-&lt;color=#00f5ff&gt;Max Health +20, All resistences +10 and Stamina regeneration +0.1.&lt;/color&gt;
-
-&lt;color=#ff5043&gt;Take up to 50% more impact as your stamina goes down.&lt;/color&gt;</Description>
+&lt;color=#00f5ff&gt;[Max Health increased by 50.]&lt;/color&gt;
+&lt;color=#ff5043&gt;[Take up to 50% more impact as your stamina goes down.]&lt;/color&gt;</Description>
   <LegacyItemID>-1</LegacyItemID>
   <IsPickable>false</IsPickable>
   <IsUsable>false</IsUsable>
@@ -38,79 +37,7 @@
           <SyncType>OwnerSync</SyncType>
           <OverrideCategory>None</OverrideCategory>
           <Stat_Tag>MaxHealth</Stat_Tag>
-          <AffectQuantity>20</AffectQuantity>
-          <IsModifier>false</IsModifier>
-          <Duration>-1</Duration>
-        </SL_Effect>
-        <SL_Effect xsi:type="SL_AffectStat">
-          <Delay>0</Delay>
-          <SyncType>OwnerSync</SyncType>
-          <OverrideCategory>None</OverrideCategory>
-          <Stat_Tag>EtherealResistance</Stat_Tag>
-          <AffectQuantity>10</AffectQuantity>
-          <IsModifier>false</IsModifier>
-          <Duration>-1</Duration>
-        </SL_Effect>
-        <SL_Effect xsi:type="SL_AffectStat">
-          <Delay>0</Delay>
-          <SyncType>OwnerSync</SyncType>
-          <OverrideCategory>None</OverrideCategory>
-          <Stat_Tag>DecayResistance</Stat_Tag>
-          <AffectQuantity>10</AffectQuantity>
-          <IsModifier>false</IsModifier>
-          <Duration>-1</Duration>
-        </SL_Effect>
-        <SL_Effect xsi:type="SL_AffectStat">
-          <Delay>0</Delay>
-          <SyncType>OwnerSync</SyncType>
-          <OverrideCategory>None</OverrideCategory>
-          <Stat_Tag>ElectricResistance</Stat_Tag>
-          <AffectQuantity>10</AffectQuantity>
-          <IsModifier>false</IsModifier>
-          <Duration>-1</Duration>
-        </SL_Effect>
-        <SL_Effect xsi:type="SL_AffectStat">
-          <Delay>0</Delay>
-          <SyncType>OwnerSync</SyncType>
-          <OverrideCategory>None</OverrideCategory>
-          <Stat_Tag>FrostResistance</Stat_Tag>
-          <AffectQuantity>10</AffectQuantity>
-          <IsModifier>false</IsModifier>
-          <Duration>-1</Duration>
-        </SL_Effect>
-        <SL_Effect xsi:type="SL_AffectStat">
-          <Delay>0</Delay>
-          <SyncType>OwnerSync</SyncType>
-          <OverrideCategory>None</OverrideCategory>
-          <Stat_Tag>FireResistance</Stat_Tag>
-          <AffectQuantity>10</AffectQuantity>
-          <IsModifier>false</IsModifier>
-          <Duration>-1</Duration>
-        </SL_Effect>
-        <SL_Effect xsi:type="SL_AffectStat">
-          <Delay>0</Delay>
-          <SyncType>OwnerSync</SyncType>
-          <OverrideCategory>None</OverrideCategory>
-          <Stat_Tag>ImpactResistance</Stat_Tag>
-          <AffectQuantity>10</AffectQuantity>
-          <IsModifier>false</IsModifier>
-          <Duration>-1</Duration>
-        </SL_Effect>
-        <SL_Effect xsi:type="SL_AffectStat">
-          <Delay>0</Delay>
-          <SyncType>OwnerSync</SyncType>
-          <OverrideCategory>None</OverrideCategory>
-          <Stat_Tag>PhysicalResistance</Stat_Tag>
-          <AffectQuantity>10</AffectQuantity>
-          <IsModifier>false</IsModifier>
-          <Duration>-1</Duration>
-        </SL_Effect>
-        <SL_Effect xsi:type="SL_AffectStat">
-          <Delay>0</Delay>
-          <SyncType>OwnerSync</SyncType>
-          <OverrideCategory>None</OverrideCategory>
-          <Stat_Tag>StaminaRegen</Stat_Tag>
-          <AffectQuantity>0.1</AffectQuantity>
+          <AffectQuantity>50</AffectQuantity>
           <IsModifier>false</IsModifier>
           <Duration>-1</Duration>
         </SL_Effect>

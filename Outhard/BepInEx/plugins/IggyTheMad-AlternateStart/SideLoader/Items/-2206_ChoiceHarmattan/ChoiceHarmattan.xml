@@ -2,12 +2,8 @@
 <SL_Skill xmlns:xsd="http://www.w3.org/2001/XMLSchema" xmlns:xsi="http://www.w3.org/2001/XMLSchema-instance">
   <Target_ItemID>8205100</Target_ItemID>
   <New_ItemID>-2206</New_ItemID>
-  <Name>Scourge Survivor</Name>
-  <Description>Your homeland has been destroyed by the scourge, which has set you on a quest for knowledge and power to defeat what has taken everything from you.
-  
-&lt;color=#00f5ff&gt;Elemental resistance and Corruption resistance +10%, can cast Channelling Staff.&lt;/color&gt;
-
-&lt;color=#ff5043&gt;Movimente speed -10% and Stamina use +10%&lt;/color&gt;</Description>
+  <Name>Vanilla-like: Harmattan</Name>
+  <Description>Choose the Antique Plateau as your starting zone, ready to join any faction.</Description>
   <LegacyItemID>-1</LegacyItemID>
   <IsPickable>false</IsPickable>
   <IsUsable>false</IsUsable>
@@ -33,90 +29,6 @@
       <Rotation xsi:nil="true" />
       <Scale xsi:nil="true" />
       <Effects />
-      <EffectConditions />
-      <ChildEffects />
-    </SL_EffectTransform>
-	<SL_EffectTransform>
-      <TransformName>ActivationEffects</TransformName>
-      <Position xsi:nil="true" />
-      <Rotation xsi:nil="true" />
-      <Scale xsi:nil="true" />
-      <Effects>
-	    <SL_Effect xsi:type="SL_AffectStat">
-          <Delay>0</Delay>
-          <SyncType>OwnerSync</SyncType>
-          <OverrideCategory>None</OverrideCategory>
-          <Stat_Tag>MovementSpeed</Stat_Tag>
-          <AffectQuantity>-10</AffectQuantity>
-          <IsModifier>true</IsModifier>
-          <Duration>-1</Duration>
-        </SL_Effect>
-		<SL_Effect xsi:type="SL_AffectStat">
-          <Delay>0</Delay>
-          <SyncType>OwnerSync</SyncType>
-          <OverrideCategory>None</OverrideCategory>
-          <Stat_Tag>StaminaUse</Stat_Tag>
-          <AffectQuantity>10</AffectQuantity>
-          <IsModifier>true</IsModifier>
-          <Tags />
-          <Duration>-1</Duration>
-        </SL_Effect>
-	    <SL_Effect xsi:type="SL_AffectStat">
-          <Delay>0</Delay>
-          <SyncType>OwnerSync</SyncType>
-          <OverrideCategory>None</OverrideCategory>
-          <Stat_Tag>EtherealResistance</Stat_Tag>
-          <AffectQuantity>10</AffectQuantity>
-          <IsModifier>false</IsModifier>
-          <Duration>-1</Duration>
-        </SL_Effect>
-        <SL_Effect xsi:type="SL_AffectStat">
-          <Delay>0</Delay>
-          <SyncType>OwnerSync</SyncType>
-          <OverrideCategory>None</OverrideCategory>
-          <Stat_Tag>DecayResistance</Stat_Tag>
-          <AffectQuantity>10</AffectQuantity>
-          <IsModifier>false</IsModifier>
-          <Duration>-1</Duration>
-        </SL_Effect>
-        <SL_Effect xsi:type="SL_AffectStat">
-          <Delay>0</Delay>
-          <SyncType>OwnerSync</SyncType>
-          <OverrideCategory>None</OverrideCategory>
-          <Stat_Tag>ElectricResistance</Stat_Tag>
-          <AffectQuantity>10</AffectQuantity>
-          <IsModifier>false</IsModifier>
-          <Duration>-1</Duration>
-        </SL_Effect>
-        <SL_Effect xsi:type="SL_AffectStat">
-          <Delay>0</Delay>
-          <SyncType>OwnerSync</SyncType>
-          <OverrideCategory>None</OverrideCategory>
-          <Stat_Tag>FrostResistance</Stat_Tag>
-          <AffectQuantity>10</AffectQuantity>
-          <IsModifier>false</IsModifier>
-          <Duration>-1</Duration>
-        </SL_Effect>
-        <SL_Effect xsi:type="SL_AffectStat">
-          <Delay>0</Delay>
-          <SyncType>OwnerSync</SyncType>
-          <OverrideCategory>None</OverrideCategory>
-          <Stat_Tag>FireResistance</Stat_Tag>
-          <AffectQuantity>10</AffectQuantity>
-          <IsModifier>false</IsModifier>
-          <Duration>-1</Duration>
-        </SL_Effect>
-		<SL_Effect xsi:type="SL_AffectStat">
-          <Delay>0</Delay>
-          <SyncType>OwnerSync</SyncType>
-          <OverrideCategory>None</OverrideCategory>
-          <Stat_Tag>CorruptionResistance</Stat_Tag>
-          <AffectQuantity>10</AffectQuantity>
-          <IsModifier>false</IsModifier>
-          <Tags />
-          <Duration>-1</Duration>
-        </SL_Effect>
-      </Effects>
       <EffectConditions />
       <ChildEffects />
     </SL_EffectTransform>

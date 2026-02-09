@@ -5,9 +5,8 @@
   <Name>Conflux Watcher</Name>
   <Description>Watcher of the leylines and adept of the ways of magic. You've spent years studying magic in seclusion and have learned the ways of the mana. Now it's time for you to help Aurai and those in need.
 
-&lt;color=#00f5ff&gt;Mana regeneration +0.2 and Barrier +5, can cast Shim and Egoht runes.&lt;/color&gt;
-
-&lt;color=#ff5043&gt;Stamina regeneration -0.2.&lt;/color&gt;</Description>
+&lt;color=#00f5ff&gt;[Passively regenerate 0.2 mana every second.]&lt;/color&gt;
+&lt;color=#ff5043&gt;[Baseline Stamina regeneration reduced by 40%.]&lt;/color&gt;</Description>
   <LegacyItemID>-1</LegacyItemID>
   <IsPickable>false</IsPickable>
   <IsUsable>false</IsUsable>
@@ -46,17 +45,8 @@
           <Delay>0</Delay>
           <SyncType>OwnerSync</SyncType>
           <OverrideCategory>None</OverrideCategory>
-          <Stat_Tag>Barrier</Stat_Tag>
-          <AffectQuantity>5</AffectQuantity>
-          <IsModifier>false</IsModifier>
-          <Duration>-1</Duration>
-        </SL_Effect>
-        <SL_Effect xsi:type="SL_AffectStat">
-          <Delay>0</Delay>
-          <SyncType>OwnerSync</SyncType>
-          <OverrideCategory>None</OverrideCategory>
           <Stat_Tag>StaminaRegen</Stat_Tag>
-          <AffectQuantity>-0.2</AffectQuantity>
+          <AffectQuantity>-1</AffectQuantity>
           <IsModifier>false</IsModifier>
           <Duration>-1</Duration>
         </SL_Effect>

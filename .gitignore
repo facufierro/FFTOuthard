@@ -3,17 +3,26 @@
 
 ## Always keep the ignore file itself
 !.gitignore
-
+!build_fftweaks.ps1
+!decompile_mod.ps1
 ## Un-ignore only what we actually want to work on.
 ## NOTE: To un-ignore files within an ignored directory, git requires that each
 ## parent directory in the path is also un-ignored.
 
-## OutHard: allow only the two target plugins
+## OutHard: allow only the specified plugins/files
+
 !OutHard/
 !OutHard/BepInEx/
 !OutHard/BepInEx/plugins/
-!OutHard/BepInEx/plugins/IggyTheMad-AlternateStart/
-!OutHard/BepInEx/plugins/IggyTheMad-AlternateStart/**
-!OutHard/BepInEx/plugins/IggyTheMad-TrueHardcore/
-!OutHard/BepInEx/plugins/IggyTheMad-TrueHardcore/**
 
+!OutHard/BepInEx/config/
+!OutHard/BepInEx/config/io.mefino.configurationmanager.cfg
+
+!OutHard/BepInEx/plugins/IggyTheMad-TrueHardcore/
+!OutHard/BepInEx/plugins/IggyTheMad-TrueHardcore/HardcoreRebalance.dll
+
+!OutHard/BepInEx/plugins/aa_FFTweaks - OutHard Layout/
+!OutHard/BepInEx/plugins/aa_FFTweaks - OutHard Layout/**
+
+!OutHard/BepInEx/plugins/zz_FFTweaks - OutHard Items/
+!OutHard/BepInEx/plugins/zz_FFTweaks - OutHard Items/**
