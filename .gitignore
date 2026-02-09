@@ -9,18 +9,17 @@
 ## NOTE: To un-ignore files within an ignored directory, git requires that each
 ## parent directory in the path is also un-ignored.
 
-## OutHard: allow only the two target plugins
+## OutHard: allow only the specified plugins/files
 
 !OutHard/
 !OutHard/BepInEx/
 !OutHard/BepInEx/plugins/
-!OutHard/BepInEx/plugins/IggyTheMad-AlternateStart/
-!OutHard/BepInEx/plugins/IggyTheMad-AlternateStart/**
-!OutHard/BepInEx/plugins/IggyTheMad-TrueHardcore/
-!OutHard/BepInEx/plugins/IggyTheMad-TrueHardcore/**
-!OutHard/BepInEx/plugins/FFTweaks-Outhard/
-!OutHard/BepInEx/plugins/FFTweaks-Outhard/**
-!OutHard/BepInEx/plugins/zz_FFTweaks - OutHard/
-!OutHard/BepInEx/plugins/zz_FFTweaks - OutHard/**
 
-decompiled
+!OutHard/BepInEx/plugins/IggyTheMad-TrueHardcore/
+!OutHard/BepInEx/plugins/IggyTheMad-TrueHardcore/HardcoreRebalance.dll
+
+!OutHard/BepInEx/plugins/aa_FFTweaks - OutHard Layout/
+!OutHard/BepInEx/plugins/aa_FFTweaks - OutHard Layout/**
+
+!OutHard/BepInEx/plugins/zz_FFTweaks - OutHard Items/
+!OutHard/BepInEx/plugins/zz_FFTweaks - OutHard Items/**
