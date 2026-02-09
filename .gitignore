@@ -7,6 +7,7 @@
 !decompile_mod.ps1
 !com.iggy.hardcorere.cfg
 !com.sinai.combathud.cfg
+!Vheos.Mods.Outward.cfg
 !.github/
 !.github/workflows/
 !.github/workflows/**
@@ -29,3 +30,4 @@
 
 !BepInEx/plugins/zz_FFTweaks - OutHard Items/
 !BepInEx/plugins/zz_FFTweaks - OutHard Items/**
+
