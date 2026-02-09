@@ -24,6 +24,9 @@ jobs:
           fi
           zip -r "FFTOuthard-${GITHUB_REF_NAME}.zip" BepInEx
 
+      - name: Wait for API cooldown
+        run: sleep 30
+
       - name: Create GitHub release
         uses: softprops/action-gh-release@v2
         with:
