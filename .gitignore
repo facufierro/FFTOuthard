@@ -31,3 +31,6 @@
 !BepInEx/plugins/zz_FFTweaks - OutHard Items/
 !BepInEx/plugins/zz_FFTweaks - OutHard Items/**
 
+!BepInEx/plugins/sinai-dev-PvP/
+!BepInEx/plugins/sinai-dev-PvP/PvP.dll
+
